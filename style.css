@@ -96,6 +96,28 @@ a {
     width: 150px;
 }
 
+
+.content-3 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 225px;
+    background-color: #E5E7EB;
+    gap: 24px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+}
+.quote-source {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-self: flex-end;
+}
 .footer {
     /* background-color: #1F2937; */
     color: white;
