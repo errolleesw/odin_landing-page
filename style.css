@@ -9,14 +9,16 @@ body {
 
 h1 {
     color: white;
-    font-size:40px;
+    font-size: 40px;
 }
 
 p {
     color: lightgray;
 }
 
-.header, .footer, .content-1 {
+.header,
+.footer,
+.content-1 {
     background-color: #1F2937;
 }
 
@@ -31,7 +33,13 @@ a {
     color: lightgray;
 }
 
-.header, .footer, .content, .content-1 ,.content-2, .content-3,.content-4{
+.header,
+.footer,
+.content,
+.content-1,
+.content-2,
+.content-3,
+.content-4 {
     display: flex;
 }
 
@@ -45,8 +53,7 @@ a {
     align-items: center;
 }
 
-
-.content{
+.content {
     flex-direction: column;
     flex: 1;
 }
@@ -95,6 +102,7 @@ a {
     gap: 36px;
     flex-wrap: wrap;
 }
+
 .sq-img-text {
     display: flex;
     flex-direction: column;
@@ -106,6 +114,7 @@ a {
     color: darkgray;
     width: 150px;
 }
+
 .sq-img {
     /* border: 3px solid #3882f6; */
     border-radius: 16px;
@@ -128,6 +137,7 @@ a {
     font-weight: 100;
     font-style: italic;
 }
+
 .quote-source {
     font-size: 20px;
     font-weight: bold;
@@ -163,6 +173,7 @@ a {
     font-weight: 100;
     font-size: 14px;
 }
+
 .footer {
     /* background-color: #1F2937; */
     color: white;
@@ -184,6 +195,7 @@ button {
 .content-1-left button {
     border: 1px solid #1F2937;
 }
+
 .content-4 button {
     border: 1px solid white;
 }
@@ -194,4 +206,3 @@ img {
     object-fit: cover;
     border-radius: inherit;
 }
-
