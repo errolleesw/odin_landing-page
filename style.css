@@ -57,6 +57,7 @@ a {
     justify-content: space-between;
     padding: 100px 150px;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .content-1-left {
@@ -85,13 +86,14 @@ a {
     align-items: center;
     background-color: lightgray;
     padding: 0;
-    flex: 1;
+    flex: 1 1 300px;
 }
 
 .sq-img-text_container {
     display: flex;
     justify-content: space-between;
     gap: 36px;
+    flex-wrap: wrap;
 }
 .sq-img-text {
     display: flex;
@@ -140,6 +142,8 @@ a {
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
 .content-4-text {
