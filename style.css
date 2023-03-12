@@ -40,7 +40,7 @@ a {
     /* display: flex; */
     color: white;
     justify-content: space-between;
-    padding: 0px 16px;
+    padding: 0px 150px;
     align-items: center;
 }
 
@@ -59,7 +59,7 @@ a {
 }
 
 .content-2 {
-    padding: 50px 150px;
+    padding: 50px 150px 100px 150px;
     flex-direction: column;
     align-items: center;
     gap: 24px;
@@ -91,7 +91,7 @@ a {
 }
 .sq-img {
     border: 3px solid #3882f6;
-    border-radius: 10px;
+    border-radius: 16px;
     height: 150px;
     width: 150px;
 }
@@ -118,6 +118,33 @@ a {
     display: flex;
     align-self: flex-end;
 }
+
+.content-4 {
+    margin: 100px 150px;
+    background-color: #3882f6;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.content-4-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.content-4-text .call-to-action_header {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.content-4-text .call-to-action_subtitle {
+    color: lightgray;
+    font-weight: 100;
+    font-size: 14px;
+}
 .footer {
     /* background-color: #1F2937; */
     color: white;
@@ -126,6 +153,21 @@ a {
     /* display: flex; */
     justify-content: center;
     align-items: center;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.content-1-left button {
+    border: 1px solid #1F2937;
+}
+.content-4 button {
+    border: 1px solid white;
 }
 
 
