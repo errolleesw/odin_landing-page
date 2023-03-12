@@ -7,6 +7,18 @@ body {
     justify-content: space-between;
 }
 
+h1 {
+    color: white;
+}
+
+p {
+    color: lightgray;
+}
+
+.header, .footer, .content-1 {
+    background-color: #1F2937;
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -19,7 +31,7 @@ a {
 }
 
 .header {
-    background-color: #1F2937;
+    /* background-color: #1F2937; */
     height: auto;
     display: flex;
     color: white;
@@ -29,7 +41,7 @@ a {
 }
 
 .footer {
-    background-color: #1F2937;
+    /* background-color: #1F2937; */
     color: white;
     height: 50px;
     padding: 0px 16px;
